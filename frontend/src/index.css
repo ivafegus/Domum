@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 250px;
+  background-color: #198754;
+}
+
+.cardAll {
+  border-radius: 5px;
+  background-color: #198754;
+}
+
+.cardAll-img {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border: 4px solid #198754;
+  border-radius: 10px;
+}
+
+/* temporary navbar links white color */
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.card-img  {
+  width:auto;
+}
+
+.searchBtn {
+  margin-right: 10px;
+}
+
+.filterFont, .searchBtn {
+  font-size: small;
+}
+
+.form-control {
+  min-width: 0;
+  width: auto;
+  margin: 0 auto;
+}
+
+.logInBtns:hover, .searchBtn:hover {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.redLogout:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 5px;
+}
